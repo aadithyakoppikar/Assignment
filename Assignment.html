@@ -1,0 +1,26 @@
+<html>
+<head>
+<h2>Assignment</h2>
+</head>
+<body>
+<script>
+function a() {
+var b = document.getElementById('c').value;
+console.log(b);
+let d = b/2;
+if (Number.isInteger(d) == true){
+console.log("The entered number is "+ b + " and the number is even!");
+}
+else{
+console.log("The entered number is "+ b + " and the number is odd!");
+}
+}
+</script>
+<html>
+<body>
+<form>
+<input type="number" id="c" value="">
+<input type="button" value="Submit" onclick="a()" />
+</form>
+</body>
+</html>
